@@ -1,0 +1,17 @@
+fruits=["apple","banana","cherry","pineapple"]
+print(' fruis list :')
+print(fruits)
+print(f'first elementof list is {fruits[0]}')
+print(f'last elementof list is {fruits[3]}')
+print('append orange in the list  :')
+fruits.append("orange")
+print(fruits)
+fruits.insert(1,'grape')
+print('insert grape between banana ana cherry in the list  :')
+print(fruits)
+fruits[0]="kiwi"
+print('change the value of first element in the list  :')
+print(fruits)
+fruits.remove("banana")
+print('after removing banana the modified list :')
+print(fruits)
